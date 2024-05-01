@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location"><g fill="#134563"><path d="m32 55.7-.9-1.1c-.6-.8-15.9-18.7-15.9-29.4 0-9.3 7.6-16.8 16.8-16.8S48.8 16 48.8 25.2c0 10.7-15.3 28.7-15.9 29.4l-.9 1.1zm0-45c-8 0-14.4 6.5-14.4 14.4 0 8.4 11.1 22.7 14.4 26.8 3.3-4.1 14.4-18.3 14.4-26.8 0-7.9-6.4-14.4-14.4-14.4z"></path><path d="M32 31.6c-3.5 0-6.4-2.9-6.4-6.4s2.9-6.4 6.4-6.4 6.4 2.9 6.4 6.4-2.9 6.4-6.4 6.4zm0-10.4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"></path></g></svg>
+
+
+<div
+      className="xl:w-full h-96 flex   "
+      style={{
+        backgroundImage: `url("loginx.svg")`,
+      }}
+    >
+      <div className=" flex flex-col text-left  mx-10 px-5 py-5 ">
+        <div className="">
+          <p className="mb-3 text-4xl text-left text-white md:text-xl font-bold font-sans size-13 leading-19 px-5 py-5 max-w-157 max-h-62 mt-65 ml-35">
+            Unlock your Business <br /> Potential to the Fullest <br /> with
+            Spacetotech
+          </p>
+        </div>
+        <div>
+          <p className="text-white dark:text-gray-400 px-5 py-5 max-w-150 max-h-18 font-sans font-medium text-base ">
+            Spacetotech is turning ideas into reality for a decade now.Partner
+            with us <br /> & drive digitization to your businesswith innovation
+            and technology{" "}
+          </p>
+        </div>
+      </div>
+
+      <div className="flex items-center  text-right justify-center border border-1 rounded-2.5xl bg-gray-200">
+        <div
+          className=" bg-white rounded-lg shadow-md p-5 
+    transition-transform w-96 text-center "
+        >
+          <h1 className=" text-8xl">Let's Get to Know you</h1>
+
+          <form action="get">
+            <div class="max-w-sm space-y-3">
+              <div class="relative">
+                <input
+                  type="email"
+                  class="peer py-3 pe-0 ps-8 block w-full bg-transparent border-t-transparent border-b-2 border-x-transparent border-b-gray-200 text-sm focus:border-t-transparent focus:border-x-transparent focus:border-b-blue-500 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none"
+                  placeholder="Name"
+                />
+                <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none ps-2 peer-disabled:opacity-50 peer-disabled:pointer-events-none">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </div>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="password"
+                  class="peer py-3 pe-0 ps-8 block w-full bg-transparent border-t-transparent border-b-2 border-x-transparent border-b-gray-200 text-sm focus:border-t-transparent focus:border-x-transparent focus:border-b-blue-500 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none"
+                  placeholder="Email"
+                />
+                <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none ps-2 peer-disabled:opacity-50 peer-disabled:pointer-events-none">
+                  <path d="M2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4a6.5 6.5 0 1 0-4-4Z"></path>
+                  <circle cx="16.5" cy="7.5" r=".5"></circle>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row">
+              <button
+                id="dropdown-phone-button"
+                data-dropdown-toggle="dropdown-phone"
+                className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+                type="button"
+              >
+                +91
+              </button>
+
+              <input
+                type="text"
+                id="phone-input"
+                className=" p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-0 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="Contact"
+                required
+              />
+            </div>
+            <select
+              id="question"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5 "
+            >
+              <option selected>When do you want to launch a solution?</option>
+              <option value="option2">option2</option>
+              <option value="option3">option3</option>
+              <option value="option4">option4</option>
+              <option value="option5">option5</option>
+            </select>
+            <input
+              type="About"
+              id="About"
+              name="About"
+              placeholder="About Project"
+              className=" w-full mb-6 px-4 py-2   text-black"
+            />
+
+            <div className="flex justify-start px-6 py-6 ">
+              <button
+                type="submit"
+                className="bg-blue-600 text-white py-3 px-6 rounded
+                    -md cursor-pointer transition-colors text-center 
+                    duration-300 hover:bg-blue-500"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div className=" flex flex-col  px-5 py-5">
+      <div className=" font-sans text-center  ">
+        <h1 className="text-blue-500  capitalize font-bold  dark:text-white">Certifications</h1>
+        <p className=" text-black text-center justify-center px-5 py-5">
+          {" "}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sunt
+          non! Veritatis, consectetur magni accusamus iure, <br /> reiciendis ad
+          quidem minima nesciunt amet modi alias cum autem culpa molestias
+          dolores sed.
+        </p>
+      </div>
+
+
+
+       <div className="w-full max-w-sm  border border-gray-200 rounded-lg shadow dark:border-gray-700">
+          <a href="#">
+            <img
+              className="p-8 items-center rounded-t-lg"
+              src="sports.svg"
+              alt="product image"
+            />
+            
+          </a>
+          <p className="text-2xl text-center font-bold bg-blue-900 text-blue-500 border-box">
+            Sports Industry
+          </p>
+        </div>
+        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+            <img
+              className="p-8 rounded-t-lg"
+              src="food.svg "
+              alt="product image"
+            />
+          </a>
+          <span className="text-2xl font-bold bg-blue-900 text-blue-500 border-box ">
+            Food Industry
+          </span>
+        </div>
+
+
+        flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600
