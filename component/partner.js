@@ -5,8 +5,8 @@ const partner = () => {
     
     <div className="border border-box  flex flex-col gap-20  py-5 ">
       <div className="font-poppins text-center">
-        <h1 className="text-blue-500 xl:text-5xl mt-10 capitalize font-bold font-poppins text-6xl text-center dark:text-white">Our Partners</h1>
-        <p className="text-black xl:mx-2 2xl:mx-2 xl:text-2xl 2xl:text-4xl text-2xl text-center justify-center px-5 py-5">
+        <h1 className="text-blue-500 md:text-6xl xl:text-5xl mt-10 capitalize font-bold font-poppins text-3xl text-center dark:text-white">Our Partners</h1>
+        <p className="text-black xl:mx-2 2xl:mx-2 xl:text-2xl 2xl:text-4xl text-xl text-center justify-center px-5 py-5">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sunt
           non! Veritatis, consectetur magni  accusam <br />us iure,  reiciendis ad

@@ -15,7 +15,7 @@ const TechStack = () => {
         
         <h1 className="font-bold   ml-10 text-4xl   ">TECHNOLOGY STACK</h1>
       </div>
-      <div className="  xl: xl:justify-around xl:w-auto  2xl:justify-between flex md:justify-start lg:flex-row flex-row   sm:flex-col justify-between   my-65">
+      <div className=" flex-col  xl: xl:justify-around xl:w-auto  2xl:justify-between flex md:justify-start lg:flex-row xl:flex-row   sm:flex-col justify-between   my-65">
         <div className=" ml-0 xl:w-auto  mx-10 py-10 pl-10 font-poppins ">
           <div className=" xl:w-auto    xl:text-xl  xl:my-2 2xl:w-100  my-2 sm:w-96  hover:text-white ">
             <a
@@ -51,7 +51,7 @@ const TechStack = () => {
               </div>
             </a>
           </div>
-          <div className=" mt-10 w-96 sm:w-96 xl:text-xl 2xl:w-100 hover:text-white ">
+          <div className=" mt-10  sm:w-96 xl:text-xl 2xl:w-100 hover:text-white ">
             <a
               href="#"
               className="flex  flex-row items-between py-2  h-85 bg-blue-800  shadow md:flex-row md:max-w-xl hover:bg-gray-400 hover:text-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -70,9 +70,9 @@ const TechStack = () => {
           </div>
         </div>
 
-        <div className="  xl:w-auto sm:w-auto xl:mr-4 2xl:w-auto 2xl:mr-0  py-2 my-12 rounded-xl  items-start bg-blue-800 sm:ml-2 sm:mr-2 w-full mx-10 h-55  text-start  text-white ">
+        <div className="w-auto  h-auto  xl:w-auto sm:w-auto xl:mr-4 2xl:w-auto 2xl:mr-0  py-2 my-12 rounded-xl  items-start bg-blue-800 sm:ml-2 sm:mr-2  mx-10 h-55  text-start  text-white ">
           
-          <div className=" mx-4  my-9">
+          <div className=" w-auto h-auto mx-4  my-9">
 
             <p className=" xl:text-lg 2xl:text-2xl my-10 text-xl px-4 mx-4 sm:mx-2 text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
